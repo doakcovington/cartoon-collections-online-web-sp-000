@@ -27,5 +27,6 @@ def find_the_cheese(array)# code an argument here
     array.include?(cheese_types) do |cheese|
       cheese[i]
     end
+    i += 1
   end
 end#end of find_the_cheese method
